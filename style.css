@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background: url('WEB_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #263a52; /* Светлосин цвят */
+    color: #1a73e8; /* Ярък син цвят (GitHub бутона) */
     text-align: center;
     padding: 50px;
 }
 
 h1, h2, h3, p, a {
-    color: #263a52 !important; /* Всички надписи със светлосин цвят */
+    color: #1a73e8 !important; /* Всички заглавия, параграфи и линкове */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Добавяне на малка сянка за по-добра четимост */
 }
 
 a {
@@ -18,5 +19,5 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #1a73e8; /* По-ярък ефект при ховър */
+    color: #0d47a1; /* По-тъмен син при ховър */
 }
