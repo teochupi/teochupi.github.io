@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teochupi.github.io/sitemap.xml
