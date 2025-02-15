@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     background: url('WEB_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #04121e; /* Цветът на текста */
+    color: #263a52; /* Светлосин цвят */
     text-align: center;
     padding: 50px;
 }
 
 h1, h2, h3, p, a {
-    color: #04121e; /* Всички заглавия, параграфи и линкове в желания цвят */
+    color: #263a52 !important; /* Всички надписи със светлосин цвят */
 }
 
 a {
@@ -18,4 +18,5 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #1a73e8; /* По-ярък ефект при ховър */
 }
